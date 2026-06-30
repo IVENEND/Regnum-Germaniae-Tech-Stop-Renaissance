@@ -1,1 +1,1 @@
-# Tech-Stopper-_Renaissance-_
+# Submod of Regnum Germaniae. Techtree stop in Renaissance Era.
