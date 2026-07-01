@@ -288,7 +288,7 @@
 			{
 				"name": "Astronomy",
 				"row": 2,
-				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles","[+50]% weight to this choice for AI decisions"],
+				"uniques": ["[+50]% weight to this choice for AI decisions"],
 				"prerequisites": ["Compass","Education"],
 				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
 			},
@@ -339,6 +339,7 @@
 			{
 				"name": "Exploration",
 				"row": 2,
+				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles","[+50]% weight to this choice for AI decisions"],
 				"prerequisites": ["Astronomy","Acoustics"],
 				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
 			},
@@ -397,9 +398,9 @@
 	{
 		"columnNumber": 10,
 		"era": "Enlightenment era",
-		"techCost": 001600,
-		"buildingCost": 00300,
-		"wonderCost": 00750,
+		"techCost": 1200,
+		"buildingCost": 250,
+		"wonderCost": 625,
 		"techs": [
 			{
 				"name": "Navigation",
@@ -426,6 +427,13 @@
 				"prerequisites": ["You... shall not... PASS!!"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
+			},
+			{
+				"name": "Combined Arms",
+				"row": 8,
+                "uniques": ["[-50]% weight to this choice for AI decisions"],
+				"prerequisites": ["You... shall not... PASS!!"],
+				"quote": "'Placeholder.' - Placeholder"
 			},
 			{
 				"name": "Flintlock",
@@ -471,17 +479,17 @@
 				"quote": "'Placeholder.' - Placeholder"
 			},
 			{
-				"name": "Fortification",
-				"row": 8,
-				"prerequisites": ["Economics","Flintlock"],
-				"quote": "'Placeholder.' - Placeholder"
-			},
-			{
 				"name": "Fertilizer",
-				"row": 10,
-				"prerequisites": ["Flintlock"],
+				"row": 7,
+				"prerequisites": ["Economics"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
+			},
+			{
+				"name": "Fortification",
+				"row": 9,
+				"prerequisites": ["Flintlock","Combined Arms"],
+				"quote": "'Placeholder.' - Placeholder"
 			}
 		]
 	},
@@ -523,7 +531,7 @@
 			{
 				"name": "Rifling",
 				"row": 7,
-				"prerequisites": ["Manufacturing","Fortification"],
+				"prerequisites": ["Manufacturing","Fortification","Fertilizer"],
                 "uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee"
 			},
@@ -677,7 +685,7 @@
 				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
 			},
 			{
-				"name": "Combined Arms",
+				"name": "Armoured Warfare",
 				"row": 8,
 				"prerequisites": ["Ballistics","Combustion"],
 				"quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
@@ -713,7 +721,7 @@
 			{
 				"name": "Computers",
 				"row": 8,
-				"prerequisites": ["Combined Arms","Radar"],
+				"prerequisites": ["Armoured Warfare","Radar"],
 				"quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
 			}
 		]
