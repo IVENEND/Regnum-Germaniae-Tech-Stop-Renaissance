@@ -1,0 +1,27 @@
+
+game.png
+size: 256, 128
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/HexaRealm/Units/Ducal Guard-Enlightenment era
+  rotate: false
+  xy: 4, 4
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Ducal Guard-Enlightenment era-1
+  rotate: false
+  xy: 76, 4
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Ducal Guard-Enlightenment era-2
+  rotate: false
+  xy: 148, 4
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
