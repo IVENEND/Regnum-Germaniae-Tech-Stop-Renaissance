@@ -398,7 +398,7 @@
 	{
 		"columnNumber": 10,
 		"era": "Enlightenment era",
-		"techCost": 1200,
+		"techCost": 999999999,
 		"buildingCost": 250,
 		"wonderCost": 625,
 		"techs": [
