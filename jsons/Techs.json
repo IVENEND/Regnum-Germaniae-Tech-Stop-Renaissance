@@ -355,7 +355,7 @@
 				"row": 6,
 				"prerequisites": ["Banking","Printing Press"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
-				"quote": "'Placeholder.' - Placeholder"
+				"quote": "'A State is but an Artificial Man in which the Sovereignty is an Artificial Soul, as giving life and motion to the whole body.' - Thomas Hobbes"
 			},
 			{
 				"name": "Metallurgy",
@@ -407,20 +407,20 @@
 				"name": "Navigation",
 				"row": 1,
 				"prerequisites": ["You... shall not... PASS!!"],
-				"quote": "'Placeholder.' - Placeholder"
+				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
 			},
 			{
 				"name": "Imperialism",
 				"row": 3,
                 "uniques": ["[-50]% weight to this choice for AI decisions"],
 				"prerequisites": ["You... shall not... PASS!!"],
-				"quote": "'Placeholder.' - Placeholder"
+				"quote": "'Fate has written our policy for us; the trade of the world must and shall be ours.' - Albert Beveridge"
 			},
 			{
 				"name": "Humanism",
 				"row": 4,
 				"prerequisites": ["You... shall not... PASS!!"],
-				"quote": "'Placeholder.' - Placeholder"
+				"quote": "'What is a man? A miserable little pile of secrets.' - Count Dracula"
 			},
 			{
 				"name": "Economics",
@@ -434,14 +434,14 @@
 				"row": 8,
                 "uniques": ["[-50]% weight to this choice for AI decisions"],
 				"prerequisites": ["You... shall not... PASS!!"],
-				"quote": "'Placeholder.' - Placeholder"
+				"quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
 			},
 			{
 				"name": "Flintlock",
 				"row": 9,
                 "uniques": ["[-50]% weight to this choice for AI decisions"],
 				"prerequisites": ["You... shall not... PASS!!"],
-				"quote": "'Placeholder.' - Placeholder"
+				"quote": "'To be prepared for war is one of the most effectual means of preserving peace.' - George Washington"
 			}
 		]
 	},
@@ -456,14 +456,14 @@
 				"name": "Warships",
 				"row": 1,
 				"prerequisites": ["Navigation","Imperialism"],
-				"quote": "'Placeholder.' - Placeholder"
+				"quote": "'Damn the torpedoes, Full speed ahead!' - Admiral David Glasgow Farragut"
 			},
 			{
 				"name": "Natural History",
 				"row": 3,
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"prerequisites": ["Imperialism","Humanism"],
-				"quote": "'Placeholder.' - Placeholder"
+				"quote": "'From so simple a beginning endless forms most beautiful and most wonderful have been, and are being, evolved.' - Charles Darwin"
 			},
 			{
 				"name": "Scientific Theory",
@@ -477,7 +477,7 @@
 				"row": 6,
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"prerequisites": ["Economics"],
-				"quote": "'Placeholder.' - Placeholder"
+				"quote": "'Let us rather run the risk of wearing out than rusting out.' - Theodore Roosevelt"
 			},
 			{
 				"name": "Fertilizer",
@@ -490,7 +490,7 @@
 				"name": "Fortification",
 				"row": 9,
 				"prerequisites": ["Flintlock","Combined Arms"],
-				"quote": "'Placeholder.' - Placeholder"
+				"quote": "'Greatness is nothing unless it be lasting.' - Napoleon Bonaparte"
 			}
 		]
 	},
@@ -506,7 +506,7 @@
 				"cost": 1800,
 				"row": 1,
 				"prerequisites": ["Warships"],
-				"quote": "'Placeholder.' - Placeholder"
+				"quote": "'You would make a ship sail against the winds and currents by lighting a bonfire under her deck? I have no time to listen to such nonsense.' - Napoleon Bonaparte to Robert Fulton"
 			},
 			{
 				"name": "Archaeology",
@@ -520,7 +520,7 @@
 				"cost": 1800,
 				"row": 4,
 				"prerequisites": ["Scientific Theory"],
-				"quote": "'Placeholder.' - Placeholder"
+				"quote": "'The greatest happiness for the thinking man is to have fathomed the fathomable, and to quietly revere the unfathomable.' - Johann Wolfgang Goethe"
 			},
 			{
 				"name": "Industrialization",
