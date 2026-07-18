@@ -351,7 +351,7 @@
 				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
 			},
 			{
-				"name": "Sovereignty",
+				"name": "Tech.Sovereignty",
 				"row": 6,
 				"prerequisites": ["Banking","Printing Press"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
@@ -390,7 +390,7 @@
 			{
 				"name": "You... shall not... PASS!!",
 				"row": 6,
-				"prerequisites": ["Exploration","Architecture","Sovereignty","Metallurgy","Pike and Shot Tactic","Chemistry",],
+				"prerequisites": ["Exploration","Architecture","Tech.Sovereignty","Metallurgy","Pike and Shot Tactic","Chemistry",],
 				"uniques": ["And now... humanity shall stop inventing. All the science... to trash! May the world never progress any further! Muahahaha...", "Can be continually researched"],
 				"quote": "NO! This isn't supposed how you play the game! You can't pass on from here, I won't allow you. No"
 			},
