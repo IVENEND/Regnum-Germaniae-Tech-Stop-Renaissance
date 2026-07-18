@@ -4,21 +4,21 @@ size: 512, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/HexaRealm/Units/Ducal Guard-Enlightenment era
+TileSets/HexaRealm/Units/Ducal Trabant-Enlightenment era
   rotate: false
   xy: 4, 9
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Ducal Guard-Enlightenment era-1
+TileSets/HexaRealm/Units/Ducal Trabant-Enlightenment era-1
   rotate: false
   xy: 76, 9
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Ducal Guard-Enlightenment era-2
+TileSets/HexaRealm/Units/Ducal Trabant-Enlightenment era-2
   rotate: false
   xy: 148, 9
   size: 64, 60
