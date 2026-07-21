@@ -1,0 +1,13 @@
+[
+	{
+		"name": "Reichsstädtekollegium",
+		"cost": 750,
+		"culture": 1,
+		"faith": 3,
+		"happiness": 2,
+		"isWonder": true,
+		"requiredBuilding": "Perpetual Imperial Diet",
+		"uniques": ["Resting point for Influence with City-States is increased by [15]", "Only available <for [Imperial Estate of the Holy Roman Empire] Civilizations>"],
+		"requiredTech": "Tech.Sovereignty",
+	}
+]
